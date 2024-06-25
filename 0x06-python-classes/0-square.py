@@ -1,11 +1,11 @@
 #!/usr/bin/python3
+"""
+Define a Square class
+"""
+
+
 class Square:
     """
-    A class that represents a Square
+    An empty Square Class
     """
-
-    def __init__(self):
-        """
-        Initiates a new instance of the Square Class
-        """
-        pass
+    pass
