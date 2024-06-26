@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class named square"""
+"""define a class named square"""
 
 
 class Square():
@@ -11,8 +11,8 @@ class Square():
             param1: the size of the Square
 
         Raises:
-            TypeError: if size is not and int
-            ValueError: is size < 0
+            TypeError: if param1 is not an int
+            ValueError: if param1 < 0
         """
         try:
             self.__size = size
