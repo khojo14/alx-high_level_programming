@@ -70,7 +70,10 @@ class Rectangle:
         Returns:
             int: the area of the rectangle
         """
-        return ((self.__weight) * (self.__height))
+         a = self.weight
+        b = self.height
+
+        return (a * b)
 
     def perimeter(self):
         """Function returning the perimeter of a rectangle
@@ -78,6 +81,9 @@ class Rectangle:
         Returns:
             int: the perimeter of the rectangle
         """
-        if self.__weight == 0 or self.__height == 0:
+        a = self.weight
+        b = self.height
+
+        if a == 0 or b == 0:
             return 0
-        return ((self.__weight * 2) + (self.__height * 2))
+        return ((a * 2) + (b * 2))
