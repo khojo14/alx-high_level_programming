@@ -8,8 +8,8 @@ class Rectangle:
         """Instantiation of the size of the Rectangle
 
         Args:
-        width: the width of the Rectangle
-        height: the height of the Rectangle
+            width: the width of the Rectangle
+            height: the height of the Rectangle
         """
         self.width = width
         self.height = height
@@ -46,7 +46,7 @@ class Rectangle:
         Returns:
             int the value of the height
         """
-        return self.__width
+        return self.__height
 
     @height.setter
     def height(self, value):
