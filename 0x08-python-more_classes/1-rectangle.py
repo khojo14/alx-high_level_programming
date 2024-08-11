@@ -17,6 +17,7 @@ class Rectangle:
     @property
     def width(self):
         """Gets the value of the width
+
         Returns:
             int the value of the width
         """
@@ -26,7 +27,7 @@ class Rectangle:
     def width(self, value):
         """Sets the value of the width of the rectangle
         Args:
-            value (int): value to be assigned to the width of the square
+            value (int): value to be assigned to the width of the rectangle
 
         Raises:
             TypeError: if size is not an int
@@ -50,7 +51,7 @@ class Rectangle:
     def height(self, value):
         """Sets the value of the height of the rectangle
         Args:
-            value (int): value to be assigned to the height of the square
+            value (int): value to be assigned to the height of the rectanglee
 
         Raises:
             TypeError: if size is not an int
