@@ -80,4 +80,4 @@ class Rectangle:
         """
         if self.__weight == 0 or self.__height == 0:
             return 0
-        return (self.__weight * 2 + self.__height * 2)
+        return ((self.__weight * 2) + (self.__height * 2))
