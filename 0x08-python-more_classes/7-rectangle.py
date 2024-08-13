@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class"""
+"""
+Defines a Rectangle class
+"""
 
 
 class Rectangle:
-     """A Rectangle class"""
+    """A representation of a Rectangle class"""
 
-     number_of_instances = 0
-     print_symbol = "#"
+    number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Instantiation of the size of the Rectangle
@@ -91,7 +93,7 @@ class Rectangle:
         """returns a string representation of the rectangle with '#'"""
         string = ""
         if self.__width != 0 and self.__height != 0:
-            string += "\n".join(print_symbol * self.__width
+            string += "\n".join(Rectangle.print_symbol * self.__width
                                 for j in range(self.__height))
         return string
 
