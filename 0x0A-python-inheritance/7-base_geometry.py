@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Defines a BaseGeometry Class"""
+"""
+Defines a BaseGeometry Class
+"""
 
 
 class BaseGeometry():
@@ -9,7 +11,7 @@ class BaseGeometry():
         raise Exception("area() is not implemented")
 
      def integer_validator(self, name, value):
-         """validates value"""
+         """validates that value is an integer or greater than 0"""
          if type(value) is not int:
              raise TypeError("{:s} must be an integer".format(name))
          if value <= 0:
