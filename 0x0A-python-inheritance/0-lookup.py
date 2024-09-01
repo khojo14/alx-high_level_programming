@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""" returns the list of available attributes and methods of an object"""
+"""contains the lookup funtion"""
 
 
 def lookup(obj):
-    list_obj = super(obj)
-    return list_obj
+    """ returns the list of available attributes and methods of an object"""
+
+    return dir(obj)
