@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """contains a function and the json module"""
 
 
